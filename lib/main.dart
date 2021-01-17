@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:halfy_prototype/home.dart';
+import 'package:halfy_prototype/map.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
           displayColor: Colors.white24,
         )
       ),
-      home: Home(),
+      home: Map(),
     );
   }
 }

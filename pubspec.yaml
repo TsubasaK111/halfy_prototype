@@ -23,7 +23,8 @@ dependencies:
 
   cupertino_icons: ^1.0.0 # Use 'CupertinoIcons' class for iOS style icons.
   cached_network_image: ^2.5.0
-  flutter_map: ^0.10.1+1
+  flutter_map: any
+  user_location: any
 
 dev_dependencies:
   flutter_test:
