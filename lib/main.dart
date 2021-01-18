@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:halfy_prototype/home.dart';
-import 'package:halfy_prototype/map.dart';
+import 'package:halfy_prototype/pages/tiktokPage.dart';
+import 'package:halfy_prototype/pages/mapPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +17,11 @@ class MyApp extends StatelessWidget {
           displayColor: Colors.white24,
         )
       ),
-      home: Map(),
+      initialRoute: MapPage.route,
+      routes: <String, WidgetBuilder>{
+        TikTokPage.route: (context) => TikTokPage(),
+        MapPage.route: (context) => MapPage(),
+      }
     );
   }
 }
